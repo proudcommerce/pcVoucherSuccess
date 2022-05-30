@@ -1,0 +1,29 @@
+{
+    "name": "proudcommerce/vouchersuccess",
+    "description": "pcVoucherSuccess",
+    "type": "oxideshop-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "ProudCommerce",
+            "homepage": "https://www.proudcommerce.com/",
+            "email": "welcome@proudcommerce.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@proudcommerce.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProudCommerce\\VoucherSuccess\\": "../../../source/modules/pc/vouchersuccess"
+        }
+    },
+    "extra": {
+        "oxideshop": {
+            "target-directory": "pc/vouchersuccess"
+        }
+    }
+}
